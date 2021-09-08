@@ -1,0 +1,41 @@
+                Variables
+Una variable es una forma de almacenar el valor de algo para usar mas tarde.
+Para crear una variable ponemos la palabra clave var, seguida del nombre de la variable (con este nombre luego podremos
+hacer referencia en otra linea a esta variable).
+Para asignar un valor a esta variable ponemos el signo = despues del nombre de la variable.
+La estructura quedaria asi: 
+        var nombredelavariable = 'valordelavariable';
+Var no es la unica palabra clave para crear variables. Existen 3 tipos:
+Var : la palabra generica para crear una variable.
+Let : Es muy similar a var, pero con una diferencia y es que difiere al crear un nivel de scope.
+Const: Es una variable que no se podra cambiar. Como su nombre indica es constatnte.
+                Strings
+Un string es cualquier texto entre comillas.
+ejemplo: 
+"soy henry"                
+                Funciones (argumentos, return)
+Una funcion puede recibir parametros o argumentos (algunas no reciben nada), hace uso de los valores recibidos y devuelve
+un valor usando la instruccion return.
+Un argumento son valores con lo que la funcion puede trabajar.
+La instruccion return es la que te devuelve el valor de la funcion.
+Ejemplo:
+function suma(x,y){     //esta es la funcion que va a recibir los argumentos para llevarla a cabo
+var suma = x + y;       // Los argumentos que le hemos dado son 'x' y 'y' para que los resuelva
+return suma;            //En este caso colocamos el return para que nos devuelva el valor de dicha suma de 'x' y 'y'.
+
+}
+                Declaraciones if
+El if es un control de flujo, que quiere decir esto.
+Que segun los valores que le demos nos va a decir si es true o false, si cumple o no con los valores que hemos enviado.
+Ejemplo: Queremos decir si la letra que contiene una variable es igual a 'p'
+    function letraigual (letra){
+        if (letra === p){       //lo que le estamos diciendo aqui es que si la variable 'letra' es igual a 'p'
+                return true     //si la letgra es igual a 'p' la secuencia se parara aqui y nos dara el valor true, si no es asi continua abajo
+        } else {
+                return false    //si la letra no es igual a 'p' al llegar a esta linea nos da el valor de false y aqui se para la secuencia
+        }           
+
+}
+        Valores booleanos (true, false)
+Los valores booleanos son valores que se rigen como el codigo boinario,
+es decir solo tienes 2 opciones '0' '1' o 'true' 'false' como es en este caso.
