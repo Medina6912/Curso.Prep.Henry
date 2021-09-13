@@ -1,0 +1,20 @@
+            For
+For es un comando que ejecuta un bucle hasta dar con el valor que queremos.Esto siempre se hace poniendo For (){}.
+Dentrho de los parentesis del for debemos introducir 3 cosas. 1º un valor y se añade ; para pasar al siguiente.
+2º introducimos cuando va a terminar el bucle.
+3º introducimos en cuantop se incrementa/decrementa el 1º valor.Quedaria algo asi;
+for (let i = 0                 ; i < 10                 ; i++          ) 
+// | Declaramos una variable | cuando para el bucle | Incrementamos la variable |
+Luego de esto utilizariamos los corchetes para añadir mas variables dentro de este for o para retornar un valor.
+Ejem: for (let i = 0                 ; i < 10                 ; i++          ) {
+    return i;
+}
+            &&
+(AND) es un operador logico que evaluara 2 expresiones y devolvera verdadero si las 2 son verdaderas. Si 1 es verdadera
+y la otra expresion es falsa, devolvera false.
+            ||
+(OR) es otro de los operadores logicos que evaluara distintas expresiones y si cualquiera de ellas es verdadera devolvera verdadero.
+solo devolvera falso si todas ellas son falsas.
+            !
+(NOT) es el ultimo operador logico que veremos hoy. Este lo que hace es devolver lo contrario al valor bootleano al que se lo hemos asignado.
+Es decir que si ponemos !false este devolvera true.
