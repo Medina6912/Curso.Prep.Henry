@@ -1,0 +1,54 @@
+----------------------Arrays-------------------------
+A diferencia de los strings, numeros y bootleanos, los arrays pueen contener un gran abanico de variables en su matriz.
+Podemos por ejemplo almacenar en esta matriz los nombres de los alumnos de una clase entera.
+
+var nombreclase =["Martin", "Alvaro", "Sara".......];
+/////////////////Esto es el array////////////////////
+
+.Length // Se usa para lo mismo que un string pero en vez de darte los caracteres que contiene te devuelve 
+        el numero de valores.
+
+    const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
+    console.log(nombresEstudiantes.length);  // 4
+
+____________Accesos a elementos de la matriz___________
+La matriz siempre comienza en 0, asi que el primer valor estara en la posiscion 0.
+Ejem:
+        const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
+                                        0         1        2        3
+
+Para acceder a dicha matriz tendremos que hacer referencia a la posiscion del valor que queremos.
+
+        console.log(nombresEstudiantes[1]);  // 'Antonio'
+
+Para accerder al ultimo elemento de esta matriz deberemos utilizar el metodo .length.
+Ejem: 
+        console.log(nombresEstudiantes[nombresEstudiantes.length - 1]);  // 'Samuel'
+
+_____________Asignación____________
+
+.push y .pop // Estos 2 elementos son de asignacion y designacion del ultimo valor de la matriz.
+Ejem: .pop
+
+            nombresEstudiantes.pop();
+
+        console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara']
+Ejem: .push
+
+            nombresEstudiantes.push('Patricia');
+
+        console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel', 'Patricia']    
+
+.unshift y .shift // Estos 2 elementos hacen lo mismo que .pop y .push pero agregando o quitando el valor al principio.
+
+Ejem: .unshift
+
+            nombresEstudiantes.unshift('Leo');
+
+        console.log(nombresEstudiantes);  // ['Leo', 'Martin', 'Antonio', 'Sara', 'Samuel']
+
+Ejem: .shift
+
+            nombresEstudiantes.shift();
+
+        console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel']
